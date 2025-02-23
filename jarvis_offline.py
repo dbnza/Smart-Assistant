@@ -78,7 +78,7 @@ def query_ollama(prompt):
     try:
         # Run the Ollama model with the user's prompt
         result = subprocess.run(
-            ["ollama", "run", "mistral:7b", prompt],
+            ["ollama", "run", "tinydolphin", prompt],
             capture_output=True,
             text=True
         )
@@ -93,7 +93,7 @@ def query_ollama(prompt):
 
 # Main function to run the assistant
 def run_assistant():
-    model_path = "/Users/banzragch.dolgormaa/Downloads/vosk-model-en-us-0.22-lgraph" 
+    model_path = "end paste hine" 
     active = False
     while True:
         if not active:
