@@ -14,7 +14,7 @@ Insall dependencies
 
 * download requirement.txt to install all needed packages
     ```
-    pip install -r requirements.txt
+    pip install -r requirement.txt
     ```
 * Or 
     ```
