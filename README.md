@@ -3,8 +3,10 @@ Smart assistant that uses LLM as a brain and with ability to interact with other
 
 
 * download requirement.txt to install all needed packages
-    ```pip install -r requirements.txt
+    ```
+    pip install -r requirements.txt
     ```
 * Or 
-    ```pip install pyaudio pyttsx3 vosk SpeechRecognition
+    ```
+    pip install pyaudio pyttsx3 vosk SpeechRecognition
     ```
