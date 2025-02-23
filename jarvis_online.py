@@ -34,7 +34,7 @@ def query_ollama(prompt):
     try:
         # Run the Ollama model with the user's prompt
         result = subprocess.run(
-            ["ollama", "run", "mistral:7b", prompt],
+            ["ollama", "run", "tinydolphin", prompt],
             capture_output=True,
             text=True
         )
