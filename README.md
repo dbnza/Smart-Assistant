@@ -23,7 +23,7 @@ Insall dependencies
 
 Vosk model
 
-*URL: https://alphacephei.com/vosk/models
+* URL: https://alphacephei.com/vosk/models
    ```
    Model	Size	Word error rate/Speed	Notes	License
    vosk-model-en-us-0.22-lgraph	128M	7.82 (librispeech) 8.20 (tedlium)	Big US English model with dynamic graph	Apache 2.0
